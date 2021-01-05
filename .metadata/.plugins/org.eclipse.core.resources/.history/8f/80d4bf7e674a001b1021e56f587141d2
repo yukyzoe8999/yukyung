@@ -1,0 +1,34 @@
+package Java_1230_test;
+
+import java.util.Scanner;
+
+public class Coding_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int sum = 0;
+		System.out.println("첫번째 숫자를 입력하세요.");
+		int a = sc.nextInt();
+		System.out.println("두번째 숫자를 입력하세요.");
+		int b = sc.nextInt();
+		System.out.println("세번째 숫자를 입력하세요.");
+		int c = sc.nextInt();
+		System.out.println("네번째 숫자를 입력하세요.");
+		int d = sc.nextInt();
+		System.out.println("다섯번째 숫자를 입력하세요.");
+		int e = sc.nextInt();
+		System.out.println("연산자를 입력하세요.\n " + "1.+ 2.- 3.* 4./");
+		int f = sc.nextInt();
+
+		if (f == 1) {
+			sum = a + b + c + d + e;
+		} else if(f==2) {
+			sum = a-b-c-d-e;
+		}else if(f==3) {
+			sum = a*b*c*d*e;
+		}else if(f==4) {
+			sum = a/b/c/d/e;
+		} System.out.println(sum);
+	}
+}

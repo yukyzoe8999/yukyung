@@ -1,0 +1,13 @@
+package Java_1230_test;
+
+public class Smartphone_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Smartphone phone = new Smartphone();
+		
+		phone.scanner();
+
+	}
+
+}

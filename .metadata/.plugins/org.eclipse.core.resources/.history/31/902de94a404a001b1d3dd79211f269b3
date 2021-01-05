@@ -1,0 +1,10 @@
+package Java_1230;
+
+public class Car extends Color{
+String wheel;
+String tire;
+String engine;
+String color;
+String cc;
+
+}

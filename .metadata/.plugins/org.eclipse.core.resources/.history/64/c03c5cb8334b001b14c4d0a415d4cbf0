@@ -1,0 +1,10 @@
+package Java_1231;
+
+public class C extends B {
+	
+	@Override
+	public void setA(String a) {
+		super.setA(a);
+	}
+	
+}

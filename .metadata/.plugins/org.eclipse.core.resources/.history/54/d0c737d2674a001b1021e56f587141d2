@@ -1,0 +1,17 @@
+package Java_1230_test;
+
+import java.util.Scanner;
+
+public class Coding_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		for(int i =0; i<num; i++) {
+			System.out.println(i+"번째 숫자를 입력하세요.");
+			int number = sc.nextInt();
+		}
+	}
+
+}

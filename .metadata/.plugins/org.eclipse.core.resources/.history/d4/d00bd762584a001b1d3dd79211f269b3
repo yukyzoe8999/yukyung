@@ -1,0 +1,49 @@
+package Java_1230_test;
+
+import java.util.Scanner;
+
+public class Number_final {
+	String no;
+	String name;
+
+	public String getNo() {
+
+		return no;
+	}
+
+	public void setNo(String no) {
+		this.no = no;
+
+	}
+
+	public String getName() {
+
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void to() {
+		boolean b = true;
+		String n = "";
+		int i = 0;
+		while (b) {
+			Scanner sc = new Scanner(System.in);
+		System.out.println("1. 이륙 2. 착륙");
+		int a = sc.nextInt();
+		switch(a) {
+		case 1:
+			n = "이륙";
+			i = i+500;
+			break;
+		case 2:
+			n = "착륙";
+			i = i-500;
+			break;		
+		} System.out.println(n+"합니다.\n "+"현재 높이"+i+"m");
+
+		}
+	}
+}

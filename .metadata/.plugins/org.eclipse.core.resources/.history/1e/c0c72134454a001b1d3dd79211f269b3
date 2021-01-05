@@ -1,0 +1,13 @@
+package Java_1230;
+
+import java.util.Scanner;
+
+public class Color {
+
+	public String color() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("컬러 선택: ");
+		String a = sc.nextLine();
+		return a;
+	}
+}

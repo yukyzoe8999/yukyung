@@ -1,0 +1,7 @@
+package Java_0104;
+
+public class BBB {
+	String str = "1234";
+	char c = '5';
+
+}

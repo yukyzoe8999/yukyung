@@ -1,0 +1,55 @@
+package Java_0105;
+
+import java.util.Scanner;
+
+public class Book_contacts {
+	Book contacts[];
+	int count;
+	
+	public Book_contacts() {
+		this.contacts = new Book[5];
+		this.count =0;
+	}
+	public static void print(Book_contacts list, int count) {
+
+		for (int i = 0; i < list.count; i++) {
+			Book str = list.contacts[i];
+			String name = str.name;
+			String number = str.number;
+			String mail = str.mail;
+
+			System.out.println("이름: " + name);
+			System.out.println("번호: " + number);
+			System.out.println("이메일: " + mail);
+			System.out.println(" ");
+
+		}
+	}
+
+	public static void input(Book_contacts list) {
+		Scanner sc = new Scanner(System.in);
+		String name;
+		String number;
+		String mail;
+	
+		System.out.println("이름을 입력해주세요.");
+		name = sc.nextLine();
+		System.out.println("-없이"+"전화번호 11자리를 입력해주세요.");
+		number = sc.nextLine();
+		System.out.println("이메일을 입력해주세요.");
+		mail = sc.nextLine();
+
+		Book num_book = new Book();
+
+		num_book.name = name;
+		num_book.number = number;
+		num_book.mail = mail;
+
+		list.contacts[list.count] = num_book;
+		list.count++;
+
+	}
+
+}
+
+

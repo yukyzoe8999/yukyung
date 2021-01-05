@@ -1,0 +1,25 @@
+package Java_0104;
+
+public class AAA {
+
+	public static void main(String[] args) {
+		CCC c = new CCC();
+		
+		String s[] = new String[10];
+
+	
+		c.scan(b);
+		print(c);
+	}
+
+	public static void print(CCC c) {
+		BBB b = new BBB();
+		
+		for (int i = 0; i < b.str.length(); i++) {
+			String st = b.str.substring(i, i + 1);
+			System.out.println(st);
+		}
+		
+
+	}
+}

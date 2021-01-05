@@ -1,0 +1,12 @@
+package Java_1230_test;
+
+public class Movie {
+	String movie_name;
+	String movie_Runtime;
+	String movie_actor;
+	
+	
+	public void play() {
+		System.out.printf(movie_name,movie_Runtime,movie_actor);
+	}
+}

@@ -1,0 +1,23 @@
+package Java_1230_test;
+
+import java.util.Scanner;
+
+public class Coding_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("정수를 입력하세요.");
+		int i =sc.nextInt();
+		String str = Integer.toString(i);
+		for(int j=0;j<str.length();j++) {
+			String str_2 = str.substring(j,j+1);
+			//System.out.println(str_2);
+			int k = Integer.parseInt(str_2);			
+			int sum =0;
+			sum+=k;
+			System.out.println(sum);
+		}
+	}
+
+}

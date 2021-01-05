@@ -1,0 +1,7 @@
+package Java_0105;
+
+public class Book_contacts {
+	Book contacts [];
+	int count;
+
+}

@@ -1,0 +1,32 @@
+package Java_1230_test;
+
+import java.util.Scanner;
+
+public class Coding_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int num = 0;
+		for (int i = 1; i <= 5; i++) {
+			System.out.println(i + "번째 숫자를 입력하세요.");
+			int j = sc.nextInt();
+		    System.out.println(j);
+			if (i == 5) {
+				System.out.println("연산자를 입력하세요.\n " + "1. + 2. - 3. * 4. /");
+				int str = sc.nextInt();
+				if (str == 1) {
+					num += j;
+				} else if (str == 2) {
+					num -= j;
+				} else if (str == 3) {
+					num *= j;
+				} else if (str == 4) {
+					num /= j;
+				} System.out.println(num);
+			}
+		}
+
+	}
+
+}

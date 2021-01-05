@@ -1,0 +1,16 @@
+package Java_0104;
+
+public class AAA {
+
+	public static void main(String[] args) {
+		CCC c = new CCC();
+		BBB b = new BBB();
+		String s[] = new String[10];
+
+		c.scan(b);
+	}
+
+	public void print(CCC c) {
+
+	}
+}

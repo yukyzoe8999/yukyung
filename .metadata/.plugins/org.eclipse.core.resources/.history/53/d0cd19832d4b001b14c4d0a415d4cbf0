@@ -1,0 +1,15 @@
+package Java_1231;
+
+public class A_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		C print = new C();
+		
+		print.setA(a);
+		print.setB(b);
+		print.getA();
+		print.getB();
+	}
+
+}

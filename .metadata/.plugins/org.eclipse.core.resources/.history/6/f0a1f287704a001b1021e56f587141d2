@@ -1,0 +1,9 @@
+package Java_1230_test;
+
+public class Movie_actor extends Movie{
+	String movie_actor;
+	
+	public void actor(String actor) {
+		this.movie_actor = "이름 재정의";
+	}
+}

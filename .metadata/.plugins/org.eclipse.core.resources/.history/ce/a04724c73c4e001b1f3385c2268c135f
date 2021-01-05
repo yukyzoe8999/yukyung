@@ -1,0 +1,8 @@
+package Java_0104;
+
+import Java_0104_2.Exam;
+
+public class Exam_list {
+	Exam[] exams;
+	int current;
+}

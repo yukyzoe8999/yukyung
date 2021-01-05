@@ -1,0 +1,10 @@
+package Java_1230_test;
+
+public class Coding_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "9B768C";
+	}
+
+}

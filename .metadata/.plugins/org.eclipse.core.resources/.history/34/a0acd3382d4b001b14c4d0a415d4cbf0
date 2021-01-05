@@ -1,0 +1,16 @@
+package Java_1231;
+
+public class C extends B {
+	String A="abc";
+	String B="ㄱㄴㄷ";
+
+	
+	@Override
+	public void setA(String a) {
+		A = a;
+	}
+	@Override
+	public void setB(String b) {
+		B = b;
+	}
+}

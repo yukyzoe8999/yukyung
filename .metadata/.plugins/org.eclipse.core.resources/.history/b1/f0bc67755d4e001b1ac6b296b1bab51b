@@ -1,0 +1,14 @@
+package Java_0104;
+
+public class AAA {
+
+	public static void main(String[] args) {
+		CCC c = new CCC();
+		
+
+	}
+	public void print(CCC c) {
+		
+	}
+
+}
