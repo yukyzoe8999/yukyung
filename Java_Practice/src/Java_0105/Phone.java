@@ -8,10 +8,10 @@ public class Phone {
 		// TODO Auto-generated method stub
 		// 1. 전화번호부 저장 2. 전화번호부 보기
 		Scanner sc = new Scanner(System.in);
-		Book_contacts list = new Book_contacts();
+		Book_Console list = new Book_Console();
 		// list.contacts = new Book[5];
 
-		boolean b = true;
+		boolean b = true; //주석처리
 
 		while (b) {
 			System.out.println("1. 전화번호부 저장 2. 전화번호부 보기 3. 전화 걸기 4. 나가기");
@@ -19,14 +19,14 @@ public class Phone {
 			switch (a) {
 			case 1:
 				// input(list);
-				list.input(list);
+				list.input();
 				break;
 			case 2:
 				// print(list);
-				list.print(list);
+				list.print();
 				break;
 			case 3:
-				list.call(list);
+				list.call();
 				break;
 			case 4:
 				System.out.println("종료합니다.");

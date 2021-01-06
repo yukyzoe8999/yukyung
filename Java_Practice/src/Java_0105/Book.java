@@ -17,7 +17,7 @@ public class Book {
 		this.number = number;
 	}
 	public String getMail() {
-		return mail;
+		return mail; //주석처리
 	}
 	public void setMail(String mail) {
 		this.mail = mail;
