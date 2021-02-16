@@ -1,0 +1,75 @@
+*{
+    padding :0;
+    margin: 0; 
+}
+
+body{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.nav_bar{
+    background-color: rgb(201, 235, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;L
+    padding: 16px;
+}
+
+.nav_bar .nav_logo {
+    font-size: 24px;
+    color: lightslategrey;
+    font-family: 'Hi Melody', cursive;
+}
+.nav_bar .nav_logo i {
+    color: rgb(226, 174, 181);
+}
+
+.nav_bar .nav_menu {
+    color: mintcream;
+    display: flex;
+    list-style: none;
+    font-family: 'Cute Font', cursive;
+}
+
+.nav_bar .nav_menu li {
+    padding: 8px 16px;
+}
+
+.nav_bar .nav_menu li:hover {
+    background: rgb(220, 221, 164);
+    border-radius: 8px;
+}
+.nav_bar .nav_icon {
+    color: mintcream;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_bar {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .nav_bar .nav_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .nav_bar .nav_menu li {
+        text-align: center;
+        width: 100%;
+    }
+    .nav_bar .nav_icon {
+        text-align: center
+        width: 100%;
+    }
+}
+
+
+
+

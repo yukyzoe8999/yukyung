@@ -1,8 +1,0 @@
-package Java_0105;
-
-public class Book {
-	String name;
-	String number;
-	String mail;
-
-}

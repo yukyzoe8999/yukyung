@@ -1,8 +1,0 @@
-package Java_0104;
-
-public class One {
-	int num1;
-	int num2;
-	int num3;
-	int num4;
-}
